@@ -39,7 +39,8 @@ def not_bad(s):
     bad_i = s[not_i:].find('bad')
     if bad_i == -1:
         return s
-    return s[:not_i] + 'good' + s[bad_i + len('bad') +not_i:]
+    return s[:not_i] + 'good' + s[bad_i + len('bad') + not_i:]
+
 
 # F. front_back
 # Consider dividing a string into two halves.
